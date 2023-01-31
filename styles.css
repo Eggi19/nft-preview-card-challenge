@@ -68,6 +68,12 @@
   }
 
 /* general styling */
+@media(min-width: 350px){
+  .flex-content {
+    gap: 8rem;
+  }
+ }
+
 body {
     display: grid;
     place-content: center;
